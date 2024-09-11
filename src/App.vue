@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>X and O Game</h1>
+    <h1>X & O Game</h1>
     <div class="board">
       <div
         v-for="(cell, index) in board"
@@ -84,7 +84,7 @@ export default {
 #app {
   font-family: "Arial", sans-serif;
   text-align: center;
-  background-color: #f3f4f6;
+  background-color: rgb(239, 239, 212);
   padding: 30px;
   min-height: 100vh;
   display: flex;
@@ -94,9 +94,9 @@ export default {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-bottom: 20px;
-  color: #333;
+  color: #ca1e1e;
   text-transform: uppercase;
   letter-spacing: 4px;
 }
